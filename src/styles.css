@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+ul {
+  /* padding: 0px;
+  margin: 0px; */
+  list-style: none;
+  border: solid 1px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row, .grid-header-row {
+  display: flex;
+  border-bottom: 1px solid;
+  /* justify-content: space-evenly; */
+}
+
+.grid-header-row {
+  background-color: darkgrey;
+}
+
+.grid-column {
+  border-right: 1px solid;
+}
